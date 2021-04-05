@@ -1,0 +1,159 @@
+h1{
+  font-family: 'New Tegomin', serif;
+}
+h2{
+  font-family: 'Satisfy', cursive;
+}
+h3{
+  text-align: right;
+  font-family: 'Abril Fatface', cursive;
+}
+nav{
+  font-family: 'Abril Fatface', cursive;
+}
+p{
+  font-family: 'Courier Prime', monospace;
+}
+h4{
+  font-family: 'Abril Fatface', cursive;
+  text-align: right;
+}
+.announceCenter{
+  text-align: center;
+  font-family: 'New Tegomin', serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .box{
+    border: 1px solid red;
+    background: #F8FA9D;
+    padding: 10px;
+    }
+    .announceCenter{
+      font-size: 45px;
+      font-weight: 900;
+    }
+    .articleImage{
+      width: 100%;
+    }
+  .section2{
+    background-color: red;
+    height: 25px;
+  }
+  .section4{
+    background-color: red;
+    height: 25px;
+  }
+  .section5{
+    padding: 10px;
+  }
+  .section10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section13{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section14{
+    background-color: red;
+      height: 25px;
+  }
+
+  .wideAd{
+    width: 100%;
+  }
+
+  #mensFashionImg{
+
+    height: 350px;
+  }
+  #steamroller{
+    margin-bottom: -15px;
+    margin-left: -37.5px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+}
+@media only screen and (min-width: 1600px) {
+.container{
+
+  /* Step 1: Set display to grid */
+    display: grid;
+ /* Step 2: setup rows amd columns */
+    grid-template-columns:;
+    grid-template-rows: 50px 300px 75px 25px 250px 150px 100px 50px;
+    grid-template-areas:
+    "s1 s1 s1 s1 s1 s1 s1 s1"
+     "s2 s3 s3 s3 s3 s3 s3 s4"
+    "s5 s5 s5 s5 s5 s5 s5 s5"
+    "s6 s6 s6 s6 s6 s6 s6 s6"
+    "s7 s7 s7 s8 s8 s8 s9 s9"
+    "s10 s10 s10 s10 s10 s10 s9 s9"
+    "s11 s11 s12 s12 s13 s13 s9 s9"
+    "s14 s14 s14 s14 s14 s14 s14 s14";
+    border: 5px solid yellow;
+
+
+}
+.box{
+
+  border: 1px solid red;
+  background: #F8FA9D;
+  }
+.section1{
+  grid-area:s1;
+}
+.section2{
+  grid-area:s2;
+}
+.section3{
+  grid-area:s3;
+}
+.section4{
+  grid-area:s4;
+}
+    .section5{
+  grid-area:s5;
+}
+.section6{
+  grid-area:s6;
+}
+.section7{
+  grid-area:s7;
+}
+.section8{
+  grid-area:s8;
+}
+.section9{
+  grid-area:s9;
+}
+.section10{
+  grid-area:s10;
+}
+.section11{
+  grid-area:s11;
+}
+.section12{
+  grid-area:s12;
+}
+    .section13{
+  grid-area:s13;
+}
+.section14{
+  grid-area:s14;
+}
+}
